@@ -11,13 +11,13 @@ function Student(props) {
     );
 }
 
-Student.propTypes = {
+Student.proptypes = {
     name: PropTypes.string,
     age: PropTypes.number,
     isStudent: PropTypes.bool,
 }
 
-Student.defaultProps = {
+Student.defaultprops = {
     name: "Guest",
     age: 0,
     isStudent: false,
