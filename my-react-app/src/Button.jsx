@@ -7,7 +7,7 @@ function Button() {
     padding: "10px 20px",
     borderRadius: "5px",
     border: "none",
-    cusor: "pointer",
+    cursor: "pointer",
   }
   return( <button style={styles}>Click me</button>
   );
